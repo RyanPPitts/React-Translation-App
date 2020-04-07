@@ -10,7 +10,7 @@ function App() {
   const { t, i18n } = useTranslation();
 
   function handleClick(lang) {
-    i18n.changeLanguage(Lang);
+    i18n.changeLanguage(lang);
   
   }
 
@@ -41,8 +41,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          {t('my translated text')}
-        </p>
+          {t('Thanks.1')}  </p>
+          <p>{t('Why.1')} </p>
+      
         
       </header>
     </div>
