@@ -6,9 +6,9 @@ import * as serviceWorker from './serviceWorker';
 import './i18next';
 
 ReactDOM.render(
-  <Suspense fallback={(<div> Loading </div>)}>
+  <Suspense fallback={<div>Loading</div>}>
     <App />
-    </Suspense>
+  </Suspense>,
   document.getElementById('root')
 );
 
